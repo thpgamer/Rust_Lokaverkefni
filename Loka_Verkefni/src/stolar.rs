@@ -1,17 +1,19 @@
-use::std::fmt::Display;
-use crate::stolar_gerd::Gerd;
+use crate::stolargerd::Gerd;
 
-pub struct Stoll{
+pub struct Stoll {
     pub gerd: Gerd,
     pub verd: i32,
-    pub stadur: String
+    pub stadur: Stadur,
 }
-impl Stoll{
-    pub fn new(impgerd:str,impverd:i32,impstadur:str){
-        Self{
-            gerd: Gerd::try_from(impgerd)?,
-            verd: i32,
-            stadur: impstadur.to_string()
-        }
+
+impl Stoll {
+    pub fn new(impgerd: &str, impverd: i32, impstadur: &str) -> Result<Self, String> {
+        let gerd = Gerd::try_from(impgerd)?;
+        let stadur = Stadur::try_from(impstadur)?;
+        Ok(Self {
+            gerd,
+            verd: impverd,
+            stadur,
+        })
     }
 }
