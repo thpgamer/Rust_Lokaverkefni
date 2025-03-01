@@ -1,6 +1,9 @@
 # Rust_Lokaverkefni
-21/02/2025: gera grunn af valmind og byrjun á struct og new í valmynd
+21/02/2025: Byrjaði á valmynd og grunnstruct
 ##
-24/02/2025: gerði meira í struct fyrir stola og valmynd
-## 
-25/02/2025: kláraði alt fyrir stóla for now og er byrjaður á húsum og borðum
+24/02/2025: Unnið meira í struct fyrir stóla og valmynd
+##
+25/02/2025: Kláraði stóla í bili og byrjaði á húsum og borðum
+##
+28/02/2025: 
+Kláraði Stadur enum og Location fyrir staðsetningu búnaðar. Bætti við struct fyrir borð og skjávarpa. Gerði Inventory fyrir skráningu, eyðingu og uppfærslu búnaðar. Útfærði JSON-vistun.
