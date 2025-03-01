@@ -7,3 +7,6 @@
 ##
 28/02/2025: 
 Kláraði Stadur enum og Location fyrir staðsetningu búnaðar. Bætti við struct fyrir borð og skjávarpa. Gerði Inventory fyrir skráningu, eyðingu og uppfærslu búnaðar. Útfærði JSON-vistun.
+##
+01/03/2025
+Kláraði rest
