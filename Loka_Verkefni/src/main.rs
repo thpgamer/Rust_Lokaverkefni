@@ -1,6 +1,3 @@
-// src/main.rs
-// Aðalforrit sem sér um notendaviðmót og samskipti við birgðaskrá
-
 use std::io;
 mod table;
 mod chair;
